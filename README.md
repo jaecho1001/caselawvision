@@ -1,3 +1,17 @@
+> # DEPRECATED — do not use this repo
+>
+> This repository is **retired**. The canonical CaseLawVision Platform Bible — the single
+> source of truth for architecture, standards, the `ix_*` integration contract, and the
+> agent brain kit — now lives at:
+>
+> ### https://github.com/jaecho1001/caselawvision-platform
+>
+> Two overlapping "platform bibles" existed and disagreed on app status and some `ix_*`
+> table names, which risked apps building against the wrong contract. As of 2026-07-14 we
+> consolidated on `caselawvision-platform`. Everything unique here (e.g. the EzWill
+> `ew_client_id` link on `ix_cross_client_map`) has been folded into that repo. Build
+> against `caselawvision-platform` only.
+
 # CaseLawVision — Multi-Agent AI Platform for Canadian Law Firms
 
 A comprehensive AI platform for Canadian law firms, powered by a multi-agent orchestration architecture. Each practice area has its own specialized AI agent, all sharing a common integration layer.
